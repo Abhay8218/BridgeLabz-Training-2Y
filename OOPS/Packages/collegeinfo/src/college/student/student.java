@@ -1,0 +1,8 @@
+package college.student;
+
+public class Student {
+    private String name;
+    public Student(String name) { this.name = name; }
+    public String getName() { return name; }
+    public void show() { System.out.println("Student: " + name); }
+}
